@@ -3,6 +3,14 @@ Lib Curl
 
 A simple class for wrapping curl
 
+#Install with Composer
+
+    {
+        "require": {
+            "lib/curl": "0.2"
+        }
+    }
+
 #Usage
 
     <?php
