@@ -5,7 +5,7 @@
 * 
 * @author André Figueira
 * @package Curl\Request
-* @version 0.1
+* @version 0.3
 *
 **/
 

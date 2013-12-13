@@ -1,11 +1,30 @@
 {
-	"name": "lib/curl",
-	"require": {
-		"php": ">=5.3.0"
-	},
-	"autoload": {
-		"psr-0": {
-			"Curl": "lib/"			
-		}
-	}
+    "name": "lib/curl",
+    "description": "A simple cURL wrapper for PHP",
+    "version": "0.3",
+    "keywords": [
+        "curl",
+        "wrapper",
+        "http",
+        "php",
+        "class"
+    ],
+    "homepage": "https://github.com/andrefigueira/Lib-Curl",
+    "licence": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "André Figueira",
+            "email": "andre.figueira@me.com",
+            "homepage": "http://www.andrefigueira.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Curl": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
 }
