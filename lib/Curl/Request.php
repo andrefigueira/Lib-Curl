@@ -14,25 +14,19 @@ namespace Curl;
 class Request
 {
 
-	public function __construct($url = '')
+	public function __construct()
 	{
-	
-		$this->init();
-		$this->set(CURLOPT_URL, $url);
-		
-	}
-	
-	public function init()
-	{
-		
-		$this->c = curl_init();
+
+        $this->c = curl_init();
 		
 	}
 	
 	public function set($option, $value)
 	{
-		
+
 		curl_setopt($this->c, $option, $value);
+
+        return $this;
 		
 	}
 	
