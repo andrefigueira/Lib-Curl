@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: andre.figueira
- * Date: 17/12/13
- * Time: 10:06
- */ 
+
+include 'lib/bootstrap.php';
+
+$curl = new \Curl\Request();
+
+$curl->set(CURLOPT_URL, 'http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?v=2&alt=json')
+    ->set(CURLOPT_CONNECTTIMEOUT, 10)
+    ->exec();
