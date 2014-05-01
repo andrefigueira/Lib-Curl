@@ -1,7 +1,7 @@
 {
     "name": "lib/curl",
     "description": "A simple cURL wrapper for PHP",
-    "version": "0.3",
+    "version": "0.5",
     "keywords": [
         "curl",
         "wrapper",
