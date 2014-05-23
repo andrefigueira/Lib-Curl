@@ -1,5 +1,4 @@
 <?php
-
 /**
  * A simple wrapper class for making cURL requests in PHP
  *
@@ -67,8 +66,6 @@ class Request
         $this->errorNumber = curl_errno($this->c);
         $this->errorMessage = curl_error($this->c);
         $this->info = curl_getinfo($this->c);
-
-        $this->close();
 
         return $this->result;
 
